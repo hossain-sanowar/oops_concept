@@ -20,5 +20,7 @@ class CreditCard(Payment):
 
 
 
-
+card=CreditCard()
+print(card.process_payment(100))
+print(card.process_payment(-100))
 
