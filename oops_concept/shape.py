@@ -12,3 +12,8 @@ class Circle(Shape):
 
 circle=Circle()
 print(circle.area(10))
+
+
+class Rectangle(Shape):
+    def area(self, height, width):
+        return height*width
