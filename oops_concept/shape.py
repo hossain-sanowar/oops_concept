@@ -10,8 +10,12 @@ class Circle(Shape):
     def area(self, radius):
         return 3.14*radius**2
 
+    def perimeter(self, radius):
+        return 3.14*2*radius
+
 circle=Circle()
 print(circle.area(10))
+print(circle.perimeter(10))
 
 
 class Rectangle(Shape):
