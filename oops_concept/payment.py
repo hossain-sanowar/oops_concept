@@ -19,6 +19,18 @@ class CreditCard(Payment):
         return "Invalid payment amount"
 
 
+# define concreate another class
+class PayPall(Payment):
+    def Validate_payment(self, amount):
+        if amount < 0 or amount > 10000:
+            return False
+        return True
+
+    def process_payment(self, amount):
+        if self.Validate_payment(amount):
+            return f"Processing {amount} via PayPall"
+        return "Invalid payment amount"
+
 
 card=CreditCard()
 print(card.process_payment(100))
