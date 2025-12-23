@@ -31,6 +31,10 @@ class PayPall(Payment):
             return f"Processing {amount} via PayPall"
         return "Invalid payment amount"
 
+paypall=PayPall()
+print(paypall.process_payment(100))
+print(paypall.process_payment(-100))
+
 
 card=CreditCard()
 print(card.process_payment(100))
