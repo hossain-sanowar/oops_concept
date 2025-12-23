@@ -13,4 +13,12 @@ class CreditCard(Payment):
             return False
         return True
 
+    def process_payment(self, amount):
+        if self.Validate_payment(amount):
+            return f"Processing {amount} via Credit Card"
+        return "Invalid payment amount"
+
+
+
+
 
