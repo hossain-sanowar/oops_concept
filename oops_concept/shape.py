@@ -9,3 +9,6 @@ class Shape(ABC):
 class Circle(Shape):
     def area(self, radius):
         return 3.14*radius**2
+
+circle=Circle()
+print(circle.area(10))
