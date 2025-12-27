@@ -34,6 +34,8 @@ class Triangle(Shape):
 class CircleShape(Shape):
     def area(self, radius):
         return 3.14*radius**2
+    def perimeter(self, radius):
+        return 3.14*2*radius
 
 
 
