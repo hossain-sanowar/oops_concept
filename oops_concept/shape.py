@@ -39,3 +39,4 @@ print(rectangle.perimeter(10,10))
 
 triangle=Triangle()
 print(triangle.area(10,10))
+print(triangle.perimeter(10,10))
