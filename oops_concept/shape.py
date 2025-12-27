@@ -46,3 +46,7 @@ print(rectangle.perimeter(10,10))
 triangle=Triangle()
 print(triangle.area(10,10))
 print(triangle.perimeter(10,10))
+
+circleshape=CircleShape()
+print(circleshape.area(10))
+print(circleshape.perimeter(10))
