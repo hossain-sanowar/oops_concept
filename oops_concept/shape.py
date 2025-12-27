@@ -25,6 +25,12 @@ class Rectangle(Shape):
     def perimeter(self, height, width):
         return 2*(height+width)
 
+class Triangle(Shape):
+    def area(self, height, width):
+        return height*width/2
+
+
+
 rectangle=Rectangle()
 print(rectangle.area(10,10))
 print(rectangle.perimeter(10,10))
