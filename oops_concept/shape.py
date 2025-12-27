@@ -34,3 +34,8 @@ class Triangle(Shape):
 rectangle=Rectangle()
 print(rectangle.area(10,10))
 print(rectangle.perimeter(10,10))
+
+triangle=Triangle()
+print(triangle.area(10,10))
+
+print()
