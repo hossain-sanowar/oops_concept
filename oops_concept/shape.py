@@ -28,6 +28,8 @@ class Rectangle(Shape):
 class Triangle(Shape):
     def area(self, height, width):
         return height*width/2
+    def perimeter(self, height, width):
+        return height*width/3
 
 
 
@@ -37,5 +39,3 @@ print(rectangle.perimeter(10,10))
 
 triangle=Triangle()
 print(triangle.area(10,10))
-
-print()
