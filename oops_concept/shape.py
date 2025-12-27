@@ -31,6 +31,10 @@ class Triangle(Shape):
     def perimeter(self, height, width):
         return height*width/3
 
+class CircleShape(Shape):
+    def area(self, radius):
+        return 3.14*radius**2
+
 
 
 rectangle=Rectangle()
