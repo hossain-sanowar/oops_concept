@@ -4,3 +4,7 @@ class Calculator:
         self.a = a
         self.b = b
 
+cal=Calculator(2,3)
+print(cal.a)
+print(cal.b)
+
