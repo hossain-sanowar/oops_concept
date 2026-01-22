@@ -11,3 +11,9 @@ COPY . /app
 #run
 RUN pip install -r requirements.txt
 
+# port
+EXPOSE 8080
+
+# commands
+CMD ["python3", "app.py"]
+
