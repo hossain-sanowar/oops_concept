@@ -9,3 +9,5 @@ WORKDIR /app
 COPY . /app
 
 #run
+RUN pip install -r requirements.txt
+
