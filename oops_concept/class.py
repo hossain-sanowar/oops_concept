@@ -12,6 +12,9 @@ class Calculator:
     def mul(self):
         return self.a * self.b
 
+    def div(self):
+        return self.a / self.b
+
 
 
 cls=Calculator(34,5)
