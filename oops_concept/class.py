@@ -7,3 +7,5 @@ class Calculator:
         return self.a + self.b
 
 
+cls=Calculator(34,5)
+print(cls.add())
