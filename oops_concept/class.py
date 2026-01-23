@@ -32,3 +32,6 @@ class newCalculator(Calculator):
         super().__init__(a, b)
         self.a = a
         self.b = b
+
+newclas=newCalculator(34,5)
+print(newclas.add())
