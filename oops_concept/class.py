@@ -26,3 +26,9 @@ print(cls.sub())
 print(cls.mul())
 print(cls.div())
 print(cls.pow())
+
+class newCalculator(Calculator):
+    def __init__(self, a, b):
+        super().__init__(a, b)
+        self.a = a
+        self.b = b
