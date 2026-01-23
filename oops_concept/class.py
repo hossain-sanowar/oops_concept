@@ -12,3 +12,4 @@ class Calculator:
 
 cls=Calculator(34,5)
 print(cls.add())
+print(cls.sub())
