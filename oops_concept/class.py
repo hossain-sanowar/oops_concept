@@ -15,6 +15,9 @@ class Calculator:
     def div(self):
         return self.a / self.b
 
+    def pow(self):
+        return self.a ** self.b
+
 
 
 cls=Calculator(34,5)
