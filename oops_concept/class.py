@@ -63,6 +63,11 @@ class newSeries:
         sum=self.num*(self.num+1)/2
         return sum
 
+    def oneTohun(self,num):
+        for i in range(num):
+            if i%2==0:
+                print(i)
+
 series=newSeries(4)
 print(series.numseries())
 
