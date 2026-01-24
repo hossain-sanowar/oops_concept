@@ -82,3 +82,6 @@ class oddNumber(newSeries):
             if i%2!=0:
                 print(i)
 
+
+oddnum=oddNumber(5)
+print(oddnum.get_oddNumber())
