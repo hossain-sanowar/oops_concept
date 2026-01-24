@@ -44,6 +44,10 @@ class newCalculator(Calculator):
         add, sub, mul, div, pow = self.numseries()
         return add, sub, mul, div, pow
 
+    def count(self,num):
+        add = self.add()
+        return add+num
+
 
 newclas=newCalculator(34,5)
 print(newclas.add())
