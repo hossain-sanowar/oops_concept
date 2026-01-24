@@ -43,3 +43,4 @@ class newCalculator(Calculator):
 
 newclas=newCalculator(34,5)
 print(newclas.add())
+print(newclas.numseries())
