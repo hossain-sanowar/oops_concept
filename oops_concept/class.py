@@ -60,9 +60,10 @@ class newSeries:
     def __init__(self, num):
         self.num = num
     def numseries(self):
-        sum=0
-        for num in self.num:
-            sum=self.num*(self.num+1)/2
+        sum=self.num*(self.num+1)/2
         return sum
+
+series=newSeries(4)
+print(series.numseries())
 
 
