@@ -40,6 +40,10 @@ class newCalculator(Calculator):
         pow = self.pow()
         return add, sub, mul, div, pow
 
+    def age(self):
+        add, sub, mul, div, pow = self.numseries()
+        return add, sub, mul, div, pow
+
 
 newclas=newCalculator(34,5)
 print(newclas.add())
