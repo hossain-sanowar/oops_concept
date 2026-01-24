@@ -77,3 +77,8 @@ class oddNumber(newSeries):
         super().__init__(num)
         self.num=num
 
+    def get_oddNumber(self):
+        for i in range(1,self.num+1):
+            if i%2!=0:
+                print(i)
+
