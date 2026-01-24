@@ -70,5 +70,6 @@ class newSeries:
 
 series=newSeries(4)
 print(series.numseries())
+print(series.oneTohun(5))
 
 
