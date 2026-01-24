@@ -72,4 +72,8 @@ series=newSeries(4)
 print(series.numseries())
 print(series.oneTohun(5))
 
+class oddNumber(newSeries):
+    def __init__(self, num):
+        super().__init__(num)
+        self.num=num
 
