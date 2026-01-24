@@ -32,6 +32,14 @@ class newCalculator(Calculator):
         super().__init__(a, b)
         self.a = a
         self.b = b
+    def numseries(self):
+        add = self.add()
+        sub = self.sub()
+        mul = self.mul()
+        div = self.div()
+        pow = self.pow()
+        return add, sub, mul, div, pow
+
 
 newclas=newCalculator(34,5)
 print(newclas.add())
