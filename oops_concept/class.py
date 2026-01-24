@@ -55,3 +55,7 @@ print(newclas.numseries())
 print(newclas.age())
 print(newclas.count(34))
 
+
+class newSeries:
+    def __init__(self, num):
+        self.num = num
