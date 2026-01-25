@@ -90,3 +90,10 @@ class highScore:
     def __init__(self, list):
         self.list = list
         self.score = 0
+
+    def maxScore(self):
+        return max(self.list)
+
+
+highscore=highScore([])
+print(highscore.maxScore())
