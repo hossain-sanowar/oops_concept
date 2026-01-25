@@ -85,3 +85,8 @@ class oddNumber(newSeries):
 
 oddnum=oddNumber(5)
 print(oddnum.get_oddNumber())
+
+class highScore:
+    def __init__(self, list):
+        self.list = list
+        self.score = 0
