@@ -97,6 +97,10 @@ class highScore:
     def minScore(self):
         return min(self.list)
 
+    def indexing(self):
+        return self.list.index(self.minScore())
+
+
 
 highscore=highScore([3,4,5,6,8])
 print(highscore.maxScore())
