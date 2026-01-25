@@ -113,4 +113,5 @@ print(highscore.maxScore())
 print(highscore.minScore())
 print(highscore.indexing())
 print(highscore.numIndexing())
+print(highscore.add())
 
