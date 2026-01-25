@@ -94,6 +94,9 @@ class highScore:
     def maxScore(self):
         return max(self.list)
 
+    def minScore(self):
+        return min(self.list)
+
 
 highscore=highScore([3,4,5,6,8])
 print(highscore.maxScore())
