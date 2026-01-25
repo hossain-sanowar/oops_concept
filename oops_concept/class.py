@@ -100,6 +100,9 @@ class highScore:
     def indexing(self):
         return self.list.index(self.minScore())
 
+    def numIndexing(self):
+        return self.list[2]
+
 
 
 highscore=highScore([3,4,5,6,8])
