@@ -103,6 +103,9 @@ class highScore:
     def numIndexing(self):
         return self.list[2]
 
+    def add(self):
+        return self.list[0]+self.list[1]
+
 
 
 highscore=highScore([3,4,5,6,8])
