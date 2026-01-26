@@ -124,9 +124,9 @@ class highScore2:
     def get_data(self):
         for i in range(len(self.list)):
             print("\n")
-            print(self.list[i])
+            #print(self.list[i])
             if self.list[i]==5:
-                return True
+                return self.list[i]+5
             else:
                 continue
 
