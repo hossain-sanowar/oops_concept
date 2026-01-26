@@ -125,10 +125,10 @@ class highScore2:
         for i in range(len(self.list)):
             print("\n")
             #print(self.list[i])
-            if self.list[i]==5:
-                return self.list[i]+5
+            if self.list[i]%2==0:
+                return self.list[i]
             else:
-                continue
+                print("No")
 
 highscore2=highScore2([3,4,5,6,8])
 print(highscore2.get_data())
