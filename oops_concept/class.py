@@ -128,7 +128,7 @@ class highScore2:
             if self.list[i]==5:
                 return True
             else:
-                return False
+                continue
 
 highscore2=highScore2([3,4,5,6,8])
 print(highscore2.get_data())
