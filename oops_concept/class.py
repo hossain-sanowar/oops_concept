@@ -118,3 +118,5 @@ print(highscore.add())
 
 class highScore2:
     def __init__(self, list):
+        self.list = list
+        self.score = 0
