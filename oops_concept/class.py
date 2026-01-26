@@ -123,7 +123,13 @@ class highScore2:
 
     def get_data(self):
         for i in range(len(self.list)):
+            print("\n")
+            print(self.list[i])
             if self.list[i]==5:
                 return True
             else:
                 return False
+
+highscore2=highScore2([3,4,5,6,8])
+print(highscore2.get_data())
+
