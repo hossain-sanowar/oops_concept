@@ -126,7 +126,7 @@ class highScore2:
         for i in range(len(self.list)):
             print("\n")
             #print(self.list[i])
-            if self.list[i]%2==0:
+            if self.list[i]%2!=0:
                 data.append(self.list[i])
         return data
 
