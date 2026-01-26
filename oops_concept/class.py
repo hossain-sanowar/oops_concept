@@ -115,3 +115,6 @@ print(highscore.indexing())
 print(highscore.numIndexing())
 print(highscore.add())
 
+
+class highScore2:
+    def __init__(self, list):
