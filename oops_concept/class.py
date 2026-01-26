@@ -120,3 +120,10 @@ class highScore2:
     def __init__(self, list):
         self.list = list
         self.score = 0
+
+    def get_data(self):
+        for i in range(len(self.list)):
+            if self.list[i]==5:
+                return True
+            else:
+                return False
