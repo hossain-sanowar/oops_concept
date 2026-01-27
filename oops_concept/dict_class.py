@@ -11,6 +11,10 @@ print(dictclass.data.values())
 
 
 class listRead:
-    def __init__(self):
-        self.data = []
+    def __init__(self, data):
+        self.data = data
 
+    def read_list(self):
+        data_store=[]
+        for item in self.data:
+            data_store.append(item)
