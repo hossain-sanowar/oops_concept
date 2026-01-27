@@ -7,4 +7,4 @@ class DictClass:
 
 data={"key":'value'}
 dictclass=DictClass(data=data)
-print(dictclass.data)
+print(dictclass.data.values())
