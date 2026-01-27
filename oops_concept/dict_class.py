@@ -8,3 +8,9 @@ class DictClass:
 data={"key":'value'}
 dictclass=DictClass(data=data)
 print(dictclass.data.values())
+
+
+class listRead:
+    def __init__(self):
+        self.data = []
+
