@@ -18,3 +18,6 @@ class listRead:
         data_store=[]
         for item in self.data:
             data_store.append(item)
+
+listClass=listRead([1,3,4,5,6,8])
+print(listClass.read_list())
