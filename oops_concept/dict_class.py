@@ -5,5 +5,6 @@ class DictClass:
     def __getattr__(self, item):
         return self.data[item]
 
-dictclass=DictClass()
+data={"key":'value'}
+dictclass=DictClass(data=data)
 print(dictclass.data)
