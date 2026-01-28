@@ -16,9 +16,11 @@ class listWrite:
 
     def read(self):
         get_data_write=self.write()
-        if len(get_data_write)>0:
-            return get_data_write
+        for item in get_data_write:
+            print(item)
+
 
 
 cls_write = listWrite([3,4,5,6,8])
 print(cls_write.write())
+print(cls_write.read())
