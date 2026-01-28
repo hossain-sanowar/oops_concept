@@ -18,7 +18,7 @@ class listWrite:
         data_new = []
         get_data_write=self.write()
         for item in get_data_write:
-            if item%2 == 0:
+            if item%3 == 0:
                 data_new.append(item)
         return data_new
 
