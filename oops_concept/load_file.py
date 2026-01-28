@@ -15,9 +15,12 @@ class listWrite:
         return get_data
 
     def read(self):
+        data_new = []
         get_data_write=self.write()
         for item in get_data_write:
-            print(item)
+            if item%2 == 0:
+                data_new.append(item)
+        return data_new
 
 
 
