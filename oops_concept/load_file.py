@@ -15,3 +15,5 @@ class listWrite:
         return get_data
 
 
+cls_write = listWrite([3,4,5,6,8])
+cls_wrte
