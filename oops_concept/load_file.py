@@ -6,5 +6,12 @@ listclass=listRead([3,4,5,6,8])
 
 class listWrite:
     def __init__(self, data):
+        self.data = data
+
+    def write(self):
+        get_data = []
+        for item in self.data:
+            get_data.append(item)
+        return get_data
 
 
