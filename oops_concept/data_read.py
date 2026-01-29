@@ -23,8 +23,8 @@ class lsitItem:
         self.data = self.data[:index] + self.data[index+1:]
         return self.data
 
-    def add_index(self, index):
-        self.data = self.data[index] + self.data[index+1]
+    def add_index(self,idx):
+        self.data = self.data[idx] + self.data[idx+1]
         return self.data
 
 
@@ -32,4 +32,5 @@ clslist = lsitItem([1,2,3,4,5])
 print(clslist.read())
 print(clslist.get_even())
 print(clslist.get_odd())
-print(clslist.get_index(2))
+# print(clslist.get_index(2))
+print(clslist.add_index(2))
