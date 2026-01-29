@@ -12,6 +12,13 @@ class lsitItem:
                 even.append(item)
         return even
 
+    def get_odd(self):
+        odd = []
+        for item in self.data:
+            if item % 2 != 0:
+                odd.append(item)
+        return odd
+
 
 clslist = lsitItem([1,2,3,4,5])
 print(clslist.read())
