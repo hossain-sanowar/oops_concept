@@ -19,6 +19,10 @@ class lsitItem:
                 odd.append(item)
         return odd
 
+    def add_index(self, index):
+        self.data = self.data[:index] + self.data[index+1:]
+        return self.data
+
 
 clslist = lsitItem([1,2,3,4,5])
 print(clslist.read())
