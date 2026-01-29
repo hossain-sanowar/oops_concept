@@ -19,8 +19,12 @@ class lsitItem:
                 odd.append(item)
         return odd
 
-    def add_index(self, index):
+    def get_index(self, index):
         self.data = self.data[:index] + self.data[index+1:]
+        return self.data
+
+    def add_index(self, index):
+        self.data = self.data[index] + self.data[index+1]
         return self.data
 
 
@@ -28,4 +32,4 @@ clslist = lsitItem([1,2,3,4,5])
 print(clslist.read())
 print(clslist.get_even())
 print(clslist.get_odd())
-print(clslist.add_index(2))
+print(clslist.get_index(2))
