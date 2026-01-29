@@ -5,3 +5,6 @@ class lsitItem:
     def read(self):
         return self.data
 
+
+clslist = lsitItem([1,2,3,4,5])
+print(clslist.read())
