@@ -15,3 +15,4 @@ class lsitItem:
 
 clslist = lsitItem([1,2,3,4,5])
 print(clslist.read())
+print(clslist.get_even())
