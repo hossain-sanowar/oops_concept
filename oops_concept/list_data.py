@@ -31,7 +31,7 @@ class list_data:
     def add_odd(self):
         odd_sum=0
         for item in self.data:
-            if item % 2 == 1:
+            if item % 2 ==1:
                 odd_sum=odd_sum+item
         return odd_sum
 
@@ -43,3 +43,4 @@ print(clslist.get_even())
 print(clslist.get_odd())
 print(clslist.index())
 print(clslist.add_even())
+print(clslist.add_odd())
