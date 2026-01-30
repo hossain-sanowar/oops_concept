@@ -19,6 +19,13 @@ class list_data:
         data = self.data[1]+self.data[2]
         return data
 
+    def add_even(self,data):
+        add_even = []
+        for item in self.data:
+            if item % 2 == 0:
+                add_even.append(item)
+        return add_even
+
 
 clslist=list_data([1,2,3,4,5,6])
 print(clslist.get_even())
