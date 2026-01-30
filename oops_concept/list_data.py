@@ -15,6 +15,11 @@ class list_data:
                 odd.append(item)
         return odd
 
+    def index(self):
+        data = self.data[1]+self.data[2]
+        return data
+
+
 clslist=list_data([1,2,3,4,5,6])
 print(clslist.get_even())
 print(clslist.get_odd())
