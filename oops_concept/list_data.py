@@ -28,6 +28,13 @@ class list_data:
                 add_even.append(item)
         return sum
 
+    def add_odd(self):
+        odd_sum=0
+        for item in self.data:
+            if item % 2 == 1:
+                odd_sum=odd_sum+item
+        return odd_sum
+
 
 
 
