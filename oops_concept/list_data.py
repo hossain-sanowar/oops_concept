@@ -8,5 +8,12 @@ class list_data:
             even.append(item)
         return even
 
+    def get_odd(self):
+        odd = []
+        for item in self.data:
+            if item % 2 != 0:
+                odd.append(item)
+        return odd
+
 clslist=list_data([1,2,3,4,5,6])
 print(clslist.get_even())
