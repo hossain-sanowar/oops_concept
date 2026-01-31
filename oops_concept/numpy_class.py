@@ -10,6 +10,10 @@ class Shape:
         pi=3.14
         return 2*pi*self.radius
 
+    def rectangle(self,length, width):
+        area=length*width
+        return area
+
 
 
 clsshape=Shape(10)
