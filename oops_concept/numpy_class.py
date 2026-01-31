@@ -17,6 +17,10 @@ class Shape:
     def rectangle_primeter(self,length,width):
         return 2*(length+width)
 
+    def circumference(self):
+        pi=3.14
+        return 2*pi*self.radius
+
 
 
 
