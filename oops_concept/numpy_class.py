@@ -14,3 +14,4 @@ class Shape:
 
 clsshape=Shape(10)
 print(clsshape.area())
+print(clsshape.perimeter())
