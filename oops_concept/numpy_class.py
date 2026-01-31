@@ -14,6 +14,12 @@ class Shape:
         area=length*width
         return area
 
+    def rectangle_primeter(self):
+        length=self.rectangle()
+        width=self.perimeter()
+        return 2*(length+width)
+
+
 
 
 clsshape=Shape(10)
