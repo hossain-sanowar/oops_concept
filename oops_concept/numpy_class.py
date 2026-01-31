@@ -19,3 +19,4 @@ class Shape:
 clsshape=Shape(10)
 print(clsshape.area())
 print(clsshape.perimeter())
+print(clsshape.rectangle(10,20))
