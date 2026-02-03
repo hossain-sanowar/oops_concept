@@ -13,10 +13,12 @@ class List:
         return self.list
 
     def subtract(self,value):
-        self.list.append(value)
+        self.list.remove(value)
         return self.list
 
 
 cls=List([1,2,3,4,5])
 print(cls.read_list())
 print(cls.add(12))
+print(cls.subtract(12))
+
