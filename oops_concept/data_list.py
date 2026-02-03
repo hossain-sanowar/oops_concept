@@ -16,6 +16,12 @@ class List:
         self.list.remove(value)
         return self.list
 
+    def read_index(self):
+        self.index=[]
+        for item in self.list:
+            self.index.append(self.list.index(item))
+        return self.index
+
 
 cls=List([1,2,3,4,5])
 print(cls.read_list())
