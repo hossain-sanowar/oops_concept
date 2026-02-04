@@ -7,7 +7,12 @@ print(squares_dict)
 '''uniques_value={f(x) for x in data}
 print(uniques_value)'''
 
-lst =[x*x for x in range(10**6)]
+'''lst =[x*x for x in range(10**6)]
 print(lst)
 gen =(x*x for x in range(10**6))
-print(gen)
+print(gen)'''
+
+results=[]
+for x in range(1_000_000):
+    results.append(x*x )
+print(results)
