@@ -12,7 +12,12 @@ print(lst)
 gen =(x*x for x in range(10**6))
 print(gen)'''
 
-results=[]
+'''results=[]
 for x in range(1_000_000):
     results.append(x*x )
+print(results)'''
+
+import numpy as np
+arr =np.arange(10)
+results=arr*arr
 print(results)
