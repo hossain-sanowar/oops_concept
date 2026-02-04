@@ -4,5 +4,8 @@ print(squares)
 squares_dict={x*x for x in range(10)}
 print(squares_dict)
 
-uniques_value={f(x) for x in data}
-print(uniques_value)
+'''uniques_value={f(x) for x in data}
+print(uniques_value)'''
+
+lst =[x*x for x in range(10**6)]
+print(lst)
