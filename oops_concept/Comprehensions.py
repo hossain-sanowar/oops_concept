@@ -1,8 +1,8 @@
-squares=[x*x for x in range(10)]
+'''squares=[x*x for x in range(10)]
 print(squares)
 
 squares_dict={x*x for x in range(10)}
-print(squares_dict)
+print(squares_dict)'''
 
 '''uniques_value={f(x) for x in data}
 print(uniques_value)'''
@@ -17,7 +17,16 @@ for x in range(1_000_000):
     results.append(x*x )
 print(results)'''
 
-import numpy as np
+
+import math
+points=[(1,2),(3,4),(5,6),(7,8),(9,10)]
+distances=[]
+for x,y in points:
+    d=math.sqrt(x**2+y**2)
+    distances.append(d)
+print(distances)
+
+'''import numpy as np
 arr =np.arange(1_000_000)
 results=arr*arr
-print(results)
+print(results)'''
