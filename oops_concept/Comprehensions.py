@@ -9,3 +9,5 @@ print(uniques_value)'''
 
 lst =[x*x for x in range(10**6)]
 print(lst)
+gen =(x*x for x in range(10**6))
+print(gen)
