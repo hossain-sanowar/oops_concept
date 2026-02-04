@@ -18,6 +18,6 @@ for x in range(1_000_000):
 print(results)'''
 
 import numpy as np
-arr =np.arange(10)
+arr =np.arange(1_000_000)
 results=arr*arr
 print(results)
