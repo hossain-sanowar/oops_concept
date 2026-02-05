@@ -30,3 +30,7 @@ print(distances)
 arr =np.arange(1_000_000)
 results=arr*arr
 print(results)'''
+
+class List:
+    def __init__(self,lst):
+        self.lst=lst
