@@ -34,3 +34,7 @@ print(results)'''
 class List:
     def __init__(self,lst):
         self.lst=lst
+
+    def read_list(self):
+        for item in self.lst:
+            print(item)
