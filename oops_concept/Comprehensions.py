@@ -38,3 +38,5 @@ class List:
     def read_list(self):
         for item in self.lst:
             print(item)
+clsList=List([1,2,3,4,5])
+clsList.read_list()
