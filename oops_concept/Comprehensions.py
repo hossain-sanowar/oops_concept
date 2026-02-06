@@ -45,3 +45,7 @@ clsList.read_list()
 class List2:
     def __init__(self,lst):
         self.lst=lst
+
+    def read_list(self):
+        for item in self.lst:
+            print(item)
