@@ -53,8 +53,9 @@ class List2:
     def add_index(self):
         index=[]
         for item in self.lst:
-            index.append(item.index)
+            index.append(item)
         return index
 
 clsList2=List2([1,2,3,4,5])
 clsList2.read_list()
+clsList2.add_index()
