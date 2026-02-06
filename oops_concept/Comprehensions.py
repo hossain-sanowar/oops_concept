@@ -40,3 +40,8 @@ class List:
             print(item)
 clsList=List([1,2,3,4,5])
 clsList.read_list()
+
+
+class List2:
+    def __init__(self,lst):
+        self.lst=lst
