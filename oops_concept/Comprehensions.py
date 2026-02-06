@@ -49,3 +49,6 @@ class List2:
     def read_list(self):
         for item in self.lst:
             print(item)
+
+clsList2=List2([1,2,3,4,5])
+clsList2.read_list()
