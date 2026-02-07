@@ -76,12 +76,17 @@ class List3:
                 return item
 
     def add_index(self):
+        add=[]
         for item in self.lst:
-            if self.lst[item]==0 or self.lst[item]==5:
-                return item
+            print(item)
+            if self.lst[item]==1 or self.lst[item]==2:
+                add.append(item)
+        return add
 
 
 
 clsList3=List3([1,2,3,4,5])
 print(clsList3.get_index_5())
+print(clsList3.add_index())
+
 
