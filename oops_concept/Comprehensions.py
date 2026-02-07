@@ -83,6 +83,14 @@ class List3:
                 add.append(item)
         return add
 
+    def odd_index(self):
+        odd=[]
+        for item in self.lst:
+            if item%2==0:
+                odd.append(item)
+        return odd
+
+
 
 
 clsList3=List3([1,2,3,4,5])
