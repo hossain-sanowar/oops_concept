@@ -86,7 +86,7 @@ class List3:
     def odd_index(self):
         odd=[]
         for item in self.lst:
-            if item%2==0:
+            if item%2!=0:
                 odd.append(item)
         return odd
 
@@ -96,5 +96,7 @@ class List3:
 clsList3=List3([1,2,3,4,5])
 print(clsList3.get_index_5())
 print(clsList3.add_index())
+print(clsList3.odd_index())
+
 
 
