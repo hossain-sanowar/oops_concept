@@ -90,6 +90,10 @@ class List3:
                 odd.append(item)
         return odd
 
+    def indexing(self):
+        index=self.add_index()
+        print(index)
+
 
 
 
