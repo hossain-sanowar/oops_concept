@@ -74,3 +74,7 @@ class List3:
         for item in self.lst:
             if item==5:
                 return item
+
+clsList3=List3([1,2,3,4,5])
+print(clsList3.get_index_5())
+
