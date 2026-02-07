@@ -79,7 +79,7 @@ class List3:
         add=[]
         for item in self.lst:
             print(item)
-            if self.lst[item]==1 or self.lst[item]==2:
+            if item==1 or item==2:
                 add.append(item)
         return add
 
