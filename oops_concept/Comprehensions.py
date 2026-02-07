@@ -101,6 +101,7 @@ clsList3=List3([1,2,3,4,5])
 print(clsList3.get_index_5())
 print(clsList3.add_index())
 print(clsList3.odd_index())
+print(clsList3.indexing())
 
 
 
