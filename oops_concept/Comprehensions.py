@@ -64,3 +64,8 @@ class List2:
 clsList2=List2([1,2,3,4,5])
 clsList2.read_list()
 clsList2.add_index()
+
+
+class List3:
+    def __init__(self,lst):
+        self.lst=lst
