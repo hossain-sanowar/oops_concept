@@ -69,3 +69,8 @@ clsList2.add_index()
 class List3:
     def __init__(self,lst):
         self.lst=lst
+
+    def get_index_5(self):
+        for item in self.lst:
+            if item==5:
+                return item
