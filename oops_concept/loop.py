@@ -13,4 +13,7 @@ for x in data:
         print(index, value)'''
 
 for index, value in enumerate(range(1,11), start=1):
-    print(index, value)
+    data=[]
+    if value%2==0:
+
+        print(index, value)
