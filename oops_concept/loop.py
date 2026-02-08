@@ -8,6 +8,9 @@ for x in data:
 '''for data in range(1,11):
     print(data)'''
 
-for index, value in enumerate(data):
-    if value%2!=0:
-        print(index, value)
+'''for index, value in enumerate(data):
+    if value%2==0:
+        print(index, value)'''
+
+for index, value in enumerate(range(1,11), start=1):
+    print(index, value)
