@@ -9,5 +9,5 @@ for x in data:
     print(data)'''
 
 for index, value in enumerate(data):
-    if index%2!=0:
+    if value%2!=0:
         print(index, value)
