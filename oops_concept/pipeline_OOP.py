@@ -34,3 +34,5 @@ class Pipeline:
 
 data = [1, 2, 3, 4, 5, 100]
 pipe = Pipeline([StandardScalerStep(), ThresholdStep(threshold=0.5)])
+pipe.fit(data)
+print(pipe.transform(data))
