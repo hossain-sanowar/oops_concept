@@ -20,3 +20,9 @@ class ThresholdStep:
 class Pipeline:
     def __init__(self, steps):
         self.steps = steps
+
+    def fit(self, data):
+        for step in self.steps:
+            step.fit(data)
+            data = step.transform(data)
+        return self
