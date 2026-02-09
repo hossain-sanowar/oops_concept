@@ -31,3 +31,5 @@ class Pipeline:
         for step in self.steps:
             data = step.transform(data)
         return data
+
+data = [1, 2, 3, 4, 5, 100]
