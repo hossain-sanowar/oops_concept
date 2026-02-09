@@ -6,3 +6,7 @@ class StandardScalerStep:
         return self
 
     def transform(self, data): return [(x - self.mean) / self.std for x in data]
+
+class ThresholdStep:
+    def __init__(self, threshold):
+        self.threshold = threshold
