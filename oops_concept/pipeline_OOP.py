@@ -26,3 +26,8 @@ class Pipeline:
             step.fit(data)
             data = step.transform(data)
         return self
+
+    def transform(self, data):
+        for step in self.steps:
+            data = step.transform(data)
+        return data
