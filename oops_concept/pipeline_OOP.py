@@ -33,3 +33,4 @@ class Pipeline:
         return data
 
 data = [1, 2, 3, 4, 5, 100]
+pipe = Pipeline([StandardScalerStep(), ThresholdStep(threshold=0.5)])
