@@ -16,3 +16,7 @@ class ThresholdStep:
 
     def transform(self, data):
         return [x for x in data if x > self.threshold]
+
+class Pipeline:
+    def __init__(self, steps):
+        self.steps = steps
