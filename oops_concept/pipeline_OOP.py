@@ -10,3 +10,6 @@ class StandardScalerStep:
 class ThresholdStep:
     def __init__(self, threshold):
         self.threshold = threshold
+
+    def fit(self, data):
+        return self  # nothing to learn
