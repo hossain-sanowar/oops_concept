@@ -13,3 +13,6 @@ class ThresholdStep:
 
     def fit(self, data):
         return self  # nothing to learn
+
+    def transform(self, data):
+        return [x for x in data if x > self.threshold]
