@@ -38,10 +38,13 @@ pipe.fit(data)
 print(pipe.transform(data))
 
 
-class list:
+class List:
     def __init__(self, list_data):
         self.list_data = list_data
 
     def add(self):
-        self.list_data = self.list_data + self.list_data
-        return self
+        data = self.list_data + self.list_data
+        return data
+
+clsList = List([1,2,3,4,5])
+print(clsList.add())
