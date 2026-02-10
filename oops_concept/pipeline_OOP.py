@@ -52,3 +52,4 @@ class List:
 
 clsList = List([1,2,3,4,5])
 print(clsList.add())
+print(clsList.remove())
