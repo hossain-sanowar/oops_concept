@@ -50,6 +50,12 @@ class List:
         data = self.list_data
         return data
 
+    def Indexing(self):
+        for item in self.list_data:
+            print(item)
+
+
+
 clsList = List([1,2,3,4,5])
 print(clsList.add())
 print(clsList.remove())
