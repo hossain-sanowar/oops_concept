@@ -46,5 +46,9 @@ class List:
         data = self.list_data + self.list_data
         return data
 
+    def remove(self):
+        data = self.list_data
+        return data
+
 clsList = List([1,2,3,4,5])
 print(clsList.add())
