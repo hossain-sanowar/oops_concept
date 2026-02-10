@@ -53,7 +53,7 @@ class List:
     def Indexing(self):
         data = []
         for item in self.list_data:
-            if item == 1:
+            if item%2== 0:
                 data.append(item)
         return data
 
