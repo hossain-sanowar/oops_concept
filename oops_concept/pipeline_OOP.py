@@ -51,11 +51,16 @@ class List:
         return data
 
     def Indexing(self):
+        data = []
         for item in self.list_data:
-            print(item)
+            if item == 1:
+                data.append(item)
+        return data
 
 
 
 clsList = List([1,2,3,4,5])
 print(clsList.add())
 print(clsList.remove())
+print(clsList.remove())
+print(clsList.Indexing())
