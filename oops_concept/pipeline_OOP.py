@@ -36,3 +36,8 @@ data = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 pipe = Pipeline([StandardScalerStep(), ThresholdStep(threshold=0.5)])
 pipe.fit(data)
 print(pipe.transform(data))
+
+
+class list:
+    def __init__(self, data):
+        self.data = data
