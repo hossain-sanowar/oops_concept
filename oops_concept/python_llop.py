@@ -16,6 +16,13 @@ class Loop:
                 even_data.append(i)
         return even_data
 
+    def calc(self,a):
+        Total=sum(a)
+        Length=len(a)
+        return Total, Length
+
+
+
 
 
 clsLoop=Loop(data=[1,2,3,4,5])
