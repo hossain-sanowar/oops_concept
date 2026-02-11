@@ -31,3 +31,4 @@ print(list(iterate_data))
 
 print(clsLoop.total([1,2,3,4,5]))
 print(clsLoop.even([1,2,3,4,5]))
+print(clsLoop.calc([1,2,3,4,5]))
