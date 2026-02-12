@@ -21,6 +21,10 @@ class Loop:
         Length=len(a)
         return Total, Length
 
+    def add(self,a):
+        total=sum(a)
+        return total
+
 
 
 
