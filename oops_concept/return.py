@@ -19,6 +19,13 @@ class Return:
 
         return Total, Length
 
+    def iseven(self, a):
+        if a%2==0:
+            return "Even Number"
+        else:
+            return "Odd Number"
+
+
 
 clsReturn = Return(5)
 print(clsReturn)
