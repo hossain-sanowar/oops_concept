@@ -13,6 +13,14 @@ class Return:
                 result.append(i)
         return result
 
+    def calc(self,a):
+        Total=sum(a)
+        Length=len(a)
+
+        return Total, Length
+
+
+
 
 
 
