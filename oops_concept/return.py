@@ -22,3 +22,4 @@ class Return:
 clsReturn = Return(5)
 print(clsReturn)
 print(clsReturn.total([1,2,3]))
+print(clsReturn.even([1,2,3]))
