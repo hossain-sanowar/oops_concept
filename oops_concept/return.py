@@ -6,6 +6,13 @@ class Return:
         Total=sum(a)
         return Total
 
+    def even(self, a):
+        result=[]
+        for i in a:
+            if i%2==0:
+                result.append(i)
+        return result
+
 
 
 
