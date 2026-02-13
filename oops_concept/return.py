@@ -32,3 +32,5 @@ print(clsReturn)
 print(clsReturn.total([1,2,3]))
 print(clsReturn.even([1,2,3]))
 print(clsReturn.calc([1,2,3]))
+
+print(clsReturn.iseven(5))
