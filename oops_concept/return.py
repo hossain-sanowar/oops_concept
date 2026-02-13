@@ -34,3 +34,4 @@ print(clsReturn.even([1,2,3]))
 print(clsReturn.calc([1,2,3]))
 
 print(clsReturn.iseven(5))
+print(clsReturn.iseven(6))
