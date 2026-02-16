@@ -19,3 +19,4 @@ class List:
 clsList = List([1,2,3,4,5])
 print(clsList)
 print(clsList._read_list())
+print(clsList._get_odd())
