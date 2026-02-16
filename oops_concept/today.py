@@ -15,6 +15,13 @@ class List:
                 odd.append(item)
         return odd
 
+    def _get_even(self):
+        even=[]
+        for item in self.data:
+            if item % 2 == 0:
+                even.append(item)
+        return even
+
 
 clsList = List([1,2,3,4,5])
 print(clsList)
