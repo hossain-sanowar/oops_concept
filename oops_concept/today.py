@@ -22,6 +22,14 @@ class List:
                 even.append(item)
         return even
 
+    def _get_index(self):
+        index=[]
+        for idx, item in enumerate(self.data):
+            index.append(idx)
+
+        return index
+
+
 
 clsList = List([1,2,3,4,5])
 print(clsList)
