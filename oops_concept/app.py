@@ -15,6 +15,13 @@ class App:
                 event.append(item)
         return event
 
+    def _get_odd(self):
+        odd=[]
+        for item in self.data:
+            if item%2==1:
+                odd.append(item)
+        return odd
+
 
 clsApp = App([1,2,3,4,5])
 print(clsApp._get_add())
