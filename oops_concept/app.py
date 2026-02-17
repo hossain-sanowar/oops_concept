@@ -22,6 +22,12 @@ class App:
                 odd.append(item)
         return odd
 
+    def _get_index(self):
+        index=[]
+        for item in self.data:
+            index.append(item)
+        return index
+
 
 clsApp = App([1,2,3,4,5])
 print(clsApp._get_add())
