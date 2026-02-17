@@ -1,13 +1,15 @@
 class App:
     def __init__(self, data):
-        self.data = []
+        self.data = data
 
     def _get_add(self):
-        data=[]
+        add=[]
         for item in self.data:
-            data.append(item)
+            add.append(item)
 
-        return data
+        return add
 
 
 clsApp = App([1,2,3,4,5])
+print(clsApp._get_add())
+
