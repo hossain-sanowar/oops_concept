@@ -42,4 +42,5 @@ print(clsApp._get_add())
 print(clsApp._get_event())
 print(clsApp._get_odd())
 print(clsApp._get_index())
+print(clsApp._get_even_index())
 
