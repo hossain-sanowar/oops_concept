@@ -56,11 +56,12 @@ class App:
         return item
 
     def _get_even_add(self):
-        add=[]
+        sum=0
         for item in self.data:
             if item%2==0:
-                add.append(item)
-                sum=add.sum()
+                sum=sum+item
+        return sum
+
 
 
 
@@ -72,4 +73,5 @@ print(clsApp._get_index())
 print(clsApp._get_even_index())
 print(clsApp._get_odd_index())
 print(clsApp.get_div())
+print(clsApp._get_even_add())
 
