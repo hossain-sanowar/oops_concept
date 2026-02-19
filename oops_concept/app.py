@@ -49,6 +49,12 @@ class App:
                 div.append(item)
         return div
 
+    def _get_item(self):
+        item=[]
+        for item in self.data:
+            item.append(item)
+        return item
+
 
 
 clsApp = App([1,2,3,4,5])
