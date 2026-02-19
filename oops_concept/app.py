@@ -55,6 +55,13 @@ class App:
             item.append(item)
         return item
 
+    def _get_even_add(self):
+        add=[]
+        for item in self.data:
+            if item%2==0:
+                add.append(item)
+                sum=add.sum()
+
 
 
 clsApp = App([1,2,3,4,5, 6,7,8,9])
