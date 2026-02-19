@@ -35,6 +35,13 @@ class App:
                 even.append(item)
         return even
 
+    def _get_odd_index(self):
+        odd=[]
+        for item in self.data:
+            if item%2==1:
+                odd.append(item)
+        return odd
+
 
 
 clsApp = App([1,2,3,4,5])
