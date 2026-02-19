@@ -42,6 +42,13 @@ class App:
                 odd.append(item)
         return odd
 
+    def get_div(self):
+        div=[]
+        for item in self.data:
+            if item%2==0:
+                div.append(item)
+        return div
+
 
 
 clsApp = App([1,2,3,4,5])
