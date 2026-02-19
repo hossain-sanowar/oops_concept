@@ -28,6 +28,14 @@ class App:
             index.append(item)
         return index
 
+    def _get_even_index(self):
+        even=[]
+        for item in self.data:
+            if item%2==0:
+                even.append(item)
+        return even
+
+
 
 clsApp = App([1,2,3,4,5])
 print(clsApp._get_add())
