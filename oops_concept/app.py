@@ -81,4 +81,5 @@ print(clsApp._get_even_index())
 print(clsApp._get_odd_index())
 print(clsApp.get_div())
 print(clsApp._get_even_add())
+print(clsApp._get_odd_add())
 
