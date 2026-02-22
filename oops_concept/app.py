@@ -68,6 +68,14 @@ class App:
             if item%2==1:
                 sum=sum+item
 
+    def _get_even(self):
+        sum=0
+        for item in self.data:
+            if item%2==0:
+                sum=sum+item
+        return sum
+
+
 
 
 
