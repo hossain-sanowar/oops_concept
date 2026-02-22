@@ -62,6 +62,13 @@ class App:
                 sum=sum+item
         return sum
 
+    def _get_odd_add(self):
+        sum=0
+        for item in self.data:
+            if item%2==1:
+                sum=sum+item
+
+
 
 
 
